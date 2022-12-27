@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRun
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 190.279 sec <<< FAILURE!
+Login Data Driven #2(Login)  Time elapsed: 24.249 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.Steps.page_title_should_be(Steps.java:97)
+	at ?.Page Title should be "Dashboard / nopCommerce administration"(file:///D:/core%20java/SeleniumCucumberProject1/./Features/Login.feature:20)
+
+Login Data Driven #3(Login)  Time elapsed: 23.749 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.Steps.page_title_should_be(Steps.java:97)
+	at ?.Page Title should be "Dashboard / nopCommerce administration"(file:///D:/core%20java/SeleniumCucumberProject1/./Features/Login.feature:20)
+
+Login Data Driven #4(Login)  Time elapsed: 22.765 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.Steps.page_title_should_be(Steps.java:97)
+	at ?.Page Title should be "Dashboard / nopCommerce administration"(file:///D:/core%20java/SeleniumCucumberProject1/./Features/Login.feature:20)
+
